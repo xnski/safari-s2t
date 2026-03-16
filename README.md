@@ -25,7 +25,7 @@
 
 - **Safari**（macOS / iOS / iPadOS）
 - **[Userscripts](https://apps.apple.com/app/userscripts/id1463298887)** 擴充功能（直接點擊連結 App Store 免費下載）
-- 前往「設定」→ Safari → 延伸功能 → 開啟 Userscripts 並將權限「其他網站」設為「允許」
+- 前往「設定」→ Safari → 延伸功能 → 開啟 Userscripts 並「允許延伸功能」 → 將權限「其他網站」設為「允許」
 ### 安裝步驟
 
 在 Safari 中直接開啟以下連結，Userscripts 會自動提示安裝：
