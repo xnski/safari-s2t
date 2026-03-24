@@ -25,7 +25,7 @@
 
 1. 從 App Store 下載 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)
 2. 開啟 Userscripts，完成一次性的 Safari 擴充功能授權
-   - 前往「設定」→ Safari → 擴充功能 → 開啟 Userscripts → 將「其他網站」設為「允許」
+   - 前往「設定」→ Safari → 延伸功能 → 開啟 Userscripts → 將「其他網站」設為「允許」
 3. 用 Safari 開啟 [此安裝連結](https://raw.githubusercontent.com/xnski/safari-s2t/main/cn2tw.user.js)
 4. 畫面會顯示原始碼，這是正常的 ✓
 5. 點擊 Safari 網址列左側的**網頁設定圖示**（三條線），從選單中點開 **Userscripts**，看到腳本後點「**Tap to Install**」即完成
