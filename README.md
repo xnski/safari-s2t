@@ -21,20 +21,14 @@
 
 ## 🛠️ 安裝教學
 
-### 前置需求
-
-- **Safari**（macOS / iOS / iPadOS）
-- **[Userscripts](https://apps.apple.com/app/userscripts/id1463298887)** 擴充功能（直接點擊連結 App Store 免費下載）
-- 前往「設定」→ Safari → 延伸功能 → 開啟 Userscripts 並「允許延伸功能」 → 將權限「其他網站」設為「允許」
 ### 安裝步驟
 
-在 Safari 中直接開啟以下連結，Userscripts 會自動提示安裝：
-
-```
-https://raw.githubusercontent.com/xnski/safari-s2t/main/cn2tw.user.js
-```
-
-> 若未自動彈出安裝介面，可手動將 `cn2tw.user.js` 存入 Userscripts 設定的指定資料夾。
+1. 從 App Store 下載 [Userscripts](https://apps.apple.com/app/userscripts/id1463298887)
+2. 開啟 Userscripts，完成一次性的 Safari 擴充功能授權
+   - 前往「設定」→ Safari → 擴充功能 → 開啟 Userscripts → 將「其他網站」設為「允許」
+3. 用 Safari 開啟 [此安裝連結](https://raw.githubusercontent.com/xnski/safari-s2t/main/cn2tw.user.js)
+4. 畫面會顯示原始碼，這是正常的 ✓
+5. 點擊 Safari 網址列左側的**網頁設定圖示**（三條線），從選單中點開 **Userscripts**，看到腳本後點「**Tap to Install**」即完成
 
 ### 使用方式
 
