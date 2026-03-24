@@ -44,8 +44,8 @@
 
 | 項目 | 說明 |
 |---|---|
+| **完全離線** | 轉換函式庫（opencc-js）已直接內嵌於腳本中，安裝後不需連線任何外部伺服器即可運作 |
 | **本地處理** | 所有文字轉換在裝置本地端完成，不經過任何伺服器 |
-| **外部依賴** | 透過 `@require` 從 jsDelivr CDN 載入 opencc-js，版本鎖定於 `v1.0.5`，防止供應鏈異動 |
 | **最小權限** | 聲明 `@grant none`，不申請任何 Userscript 特殊 API（如跨站請求等） |
 | **代碼自律** | 程式碼中無任何 `fetch`、`XHR`、`document.cookie` 等聯網或資料外傳邏輯 |
 | **欄位保護** | 自動跳過 `INPUT`、`TEXTAREA`（輸入框）與 `CODE`、`PRE`（程式碼區塊），密碼與私訊不受影響 |
@@ -59,7 +59,7 @@
 
 | 項目 | 說明 |
 |---|---|
-| 轉換函式庫 | [opencc-js](https://github.com/nk2028/opencc-js) v1.0.5 |
+| 轉換函式庫 | [opencc-js](https://github.com/nk2028/opencc-js) v1.0.5（內嵌於腳本中） |
 | 轉換模式 | `cn → twp`（簡轉繁，台灣用詞） |
 | 適用範圍 | 所有網站（`*://*/*`） |
 | 執行時機 | `document-end`（DOM 載入完成後） |
